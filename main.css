@@ -1,0 +1,25 @@
+body {
+    background: #fafafa;
+    text-align: center;
+}
+
+.landing-image-container {
+    display: flex;
+}
+
+.landing-image-cover {
+    display: flex;
+    margin: auto;
+    font-size: 40px;
+    background: rgba(0, 0, 0, .5);
+    height: 40%;
+    width: 40%;
+    color: white;
+    border-radius: 10px;
+}
+
+.landing-text {
+    margin: auto;
+    transform: scale(1);
+    transition: transform 0.5s ease, opacity 1s ease;
+}
